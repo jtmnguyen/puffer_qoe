@@ -1,4 +1,5 @@
 # Puffer Quality of Experience Dataset Curation
+This project focuses on enhancing machine learning models for networking applications by addressing the limitations of current datasets. We propose a localized adaptation of Puffer using LibreQoS and netUnicorn to curate diverse and high-quality datasets under varied network conditions. Our approach aims to improve model generalizability and performance through comprehensive data collection strategies validated in real-world experiments.
 
 ## Experiment setup
 ### Set up Puffer server in a virtual environment
