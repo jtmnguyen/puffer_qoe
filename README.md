@@ -8,12 +8,12 @@
 
 ### Set up environment for netUnicorn and LibreQoS
 1. Add the packet capture data of the background users to the outgoingGroupedPcap and incomingGroupedPcap directories in the format <user_ip_address>/<pcap_name>.pcap.
-3. Modify login credentials in puffer_watcher.py:
+2. . Modify login credentials in puffer_watcher.py:
 ```
 driver.find_element(By.NAME, "username").send_keys("username")
 driver.find_element(By.NAME, "password").send_keys("password")
 ```
-4. Replace "https://puffer.stanford.edu/player/" in watch_puffer.py with the url of the local Puffer server:
+3. Replace "https://puffer.stanford.edu/player/" in watch_puffer.py with the url of the local Puffer server:
 ```
 pipeline = (
     Pipeline()
